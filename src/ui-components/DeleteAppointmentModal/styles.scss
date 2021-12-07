@@ -1,0 +1,67 @@
+@import "../../assets/styles/colors-variables";
+.modal {
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+  border-radius: 4px;
+
+  // here
+  -webkit-animation-name: modal-animation;
+  -webkit-animation-duration: 0.5s;
+  animation-name: modal-animation;
+  animation-duration: 0.5s;
+  position: relative;
+}
+
+
+.modal-header {
+  padding: 24px 32px !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  box-shadow: 2px 2px 4px #bcbcbc40;
+  border-radius: 4px 4px 0px 0px !important;
+}
+
+.modal-body {
+  // padding: 20px !important;
+  height: 268px;
+  width: 360px;
+  border-radius: 4px;
+  padding: 40px 32px !important;
+  text-align: center;
+  .button-group {  
+    padding: 20px;
+    button {
+      width: 120px;
+      height: 36px;
+    }
+  }
+}
+
+.modal-dialog {
+  margin: calc(50vh - 140px) auto !important;
+  width: auto !important;
+  height: 268px;
+  width: 360px !important;
+}
+
+@-webkit-keyframes modal-animation {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes modal-animation {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}

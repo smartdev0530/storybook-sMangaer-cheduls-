@@ -1,0 +1,197 @@
+@import "../../../assets/styles/colors-variables";
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+.margin-top-8 {
+  margin-top: 8px;
+}
+
+// .margin-left-13 {
+//   margin-left: 13px;
+// }
+
+// .margin-right-89 {
+//   margin-right: 89px;
+// }
+// .margin-right-80 {
+//   margin-right: 80px;
+// }
+// .margin-right-70 {
+//   margin-right: 70px;
+// }
+
+.original-clock-in-div {
+  display: table;
+  // margin-right: auto;
+  // margin-left: auto;
+}
+.original-clock-out-div {
+  display: table;
+  // margin-right: auto;
+  // margin-left: auto;
+  //margin-bottom: 10px;
+}
+
+.element-text {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.edited-clock-in-div {
+  display: table;
+  // margin-right: auto;
+  // margin-left: auto;
+}
+.edited-clock-out-div {
+  display: table;
+  // margin-right: auto;
+  // margin-left: auto;
+}
+
+.approved-clock-in-div {
+  display: table;
+  // margin-right: auto;
+  // margin-left: auto;
+}
+.approved-clock-out-div {
+  display: table;
+  // margin-right: auto;
+  // margin-left: auto;
+}
+
+// .body-main {
+//   display: table;
+//   margin-right: auto;
+//   margin-left: auto;
+// }
+
+.comment-section-div {
+  width: 100%;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.edit-modal-comment-section-text {
+  width: 100% !important;
+  height: 67px;
+  font-size: 12px;
+  line-height: 16px;
+  color: $grey-dark;
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none; /*remove the resize handle on the bottom right*/
+  border-radius: 4px;
+  padding: 8px 0px 0px 12px;
+  border: 1px solid $grey-lighter;
+}
+
+.edit-modal-comment-section-text-red {
+  width: 100% !important;
+  height: 67px;
+  font-size: 12px;
+  line-height: 16px;
+  color: $grey-dark;
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none; /*remove the resize handle on the bottom right*/
+  border-radius: 4px;
+  padding: 8px 0px 0px 12px;
+  border: 1px solid $red;
+}
+
+.approved-section-text {
+  width: 90px;
+  height: 32px;
+  font-size: 12px;
+  line-height: 16px;
+  color: $grey-dark;
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none; /*remove the resize handle on the bottom right*/
+  border-radius: 4px;
+  padding: 8px 10px 8px 10px;
+  background-color: $grey-lightest;
+  border: 1px solid $grey-lighter;
+}
+
+.footer-body-div {
+  width: 115%;
+  height: 68px;
+  margin-top: 24px;
+  margin-bottom: -20px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: -35px;
+  padding: 16px 32px 16px 32px;
+  box-shadow: 2px -2px 4px #bcbcbc40;
+}
+
+.footer-btn-div {
+  width: fit-content;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cancel-button-action {
+  min-width: 120px;
+  width: fit-content;
+  height: 36px;
+  margin-right: 12px;
+  border: 0.5px solid $primary-action;
+  background-color: $white;
+  border-radius: 4px;
+}
+
+.approve-button-action {
+  min-width: 120px;
+  width: fit-content;
+  height: 36px;
+  background-color: $primary-action;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::after {
+  bottom: 0;
+  margin-left: -40px;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+  top: 0;
+  margin-left: -40px;
+}
+
+.react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before {
+  bottom: -1px;
+  border-top-color: #aeaeae00;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before {
+  top: -1px;
+  border-bottom-color: #aeaeae00;
+}
+
+.red-star-span-edit-modal {
+  color: $red;
+  font-size: 10px;
+  display: inline-block;
+  transform: translate(2px, -1px);
+}

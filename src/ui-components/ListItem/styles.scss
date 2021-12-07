@@ -1,0 +1,101 @@
+@import "../../assets/styles/colors-variables";
+
+.list-dropdown-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+  .drop-down-container{
+    position: relative;
+    width: 100%;
+    .list-title {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      position: relative;
+      .small-title {
+        display: flex;
+        flex-direction: row;
+      }
+      .big-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .txt-input {
+          width: 90%;
+        }
+        input {
+          border: none;
+          text-align: left;
+          font-family: "OpenSans-Regular";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 16px;
+        }
+        .up-icon {
+          background-image: url("../../assets/icons/noneIcon/dropDownIconBlue.svg");
+          width: 16px;
+          height: 9px;
+        }
+        .down-icon {
+          background-image: url("../../assets/icons/noneIcon/dropDownIconBlue.svg");
+          width: 16px;
+          height: 9px;
+          transform: rotate(180deg);
+          
+        }
+
+      }
+      &.list-title-active{
+        border: 1px solid $secondary-color;
+      }
+    }
+    
+    .list-container{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      border-radius: 4px;
+      z-index: 9996;
+      left: 0;
+      box-shadow: 2px 2px 4px rgba(188, 188, 188, 1);
+      width: 100%;
+      max-height: 280px;
+      overflow-y: scroll;
+      // border-top: none;
+      background: white;
+      padding: 5px 10px;
+      .item-container {
+        display: flex;
+        flex-direction: column;
+        .one-item {
+          display: flex;
+          flex-direction:row;
+          margin:3px 0 ;
+          align-items: center;
+          // justify-content: space-around;
+          .checked{
+        
+            flex: 5%;
+          }
+          .code {
+            margin-top: 8px;
+            flex: 10%;
+          }
+          .des{
+            margin-top: 8px;
+            flex: 75%;
+          }
+          .other{
+            margin-top: 8px;
+            flex:10%
+          }
+
+        }
+      }
+    }
+  }
+
+}

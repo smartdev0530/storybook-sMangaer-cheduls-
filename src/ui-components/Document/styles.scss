@@ -1,0 +1,437 @@
+@import "../../assets/styles/base";
+.documents{
+    width: inherit;
+    height: inherit;
+    position: relative;
+    top: 2px;
+    .card{
+      border-radius: 0px;
+      border: 0px solid !important;
+    }
+    .card-header{
+      width: 100%;
+      padding: 0px;
+      height: 44px;
+      border: 0px solid!important;
+    }
+    .card-header:first-child{
+      border-radius: 0px;
+      //padding: 12px 20px 12px 20px;
+      border: 0px solid!important;
+      margin-bottom: 1px;
+    }
+    .card-body{
+      padding: 8px 20px 0px 20px;
+    }
+}
+.header-document-component{
+    background-color: #FFFFFF;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border: 1px solid #F7F7F7;
+    box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+    //border-radius: 4px;
+    margin: 0px 0px 0px 0px !important;
+    position: absolute;
+    width: 128px;
+    z-index: 1;
+    height: 68px;
+    top: 25px;
+    right: 7px;
+    .name1{
+        display: inherit;
+        right: 0px;
+        left: 0px;
+    }
+    .add-icon-document{
+        position: relative;
+        transform: translate(-10px, -20px);
+        right: 0px;
+        left: 0px;
+        svg{
+         width: inherit;
+         height: inherit;}
+     }
+}
+.toggle-icon {
+  margin-top: -8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  right: 48px;
+  margin-right: 12px;
+  position: absolute;
+    svg{
+      path{
+        fill: $primary-action;
+      }} 
+       }
+       .down-icon{
+        transform: translate(4px, 0px);
+      }
+      .down-icon-disable{
+        margin-top: -10px;
+        display: flex;
+        width: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: center;
+        right: 55px;
+        position: absolute;
+        svg{
+          path{
+            fill: $grey-medium;
+          }}
+      }
+      .menu-icon-disable{
+        display: flex;
+        width: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-content: center;
+        right: 24px;
+        top: 13px;
+        position: absolute;
+        svg{
+          path{
+            fill: $grey-medium;
+          }}
+      }
+      .heading-document-disable{
+        position: relative;
+        display: flex;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+        transform: translate(20px,-5px);
+      }
+.add-icon-document1{
+    position: relative;
+    display: flex;
+    right: 21px;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.greyBackground{
+    background-color: $grey-lightest !important;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    //border: none;
+    font-weight: 600;
+}
+  .name1{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    /* left: 20px; */
+    right: 85%;
+    top: -13%;
+  }
+ 
+  .whiteBackgroundBorder {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: $white !important;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    &.card-header{
+    //border: 1px solid $grey-lightest !important;   
+  }
+}
+  .newFolderHeader{
+    background-color: $grey-lightest;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    &.card-header{
+    border: 1px solid $grey-lightest !important;   
+  }}
+  .heading-document{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+     padding: 12px 20px 12px 20px;
+  }
+  .menu-icon-documents{
+    display: flex;
+    width: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    right: 20px;
+    top: 10px;
+    position: absolute;
+      .menu-icon{
+        width: 20px;
+      }
+      svg{
+          path{
+              fill: $primary-action;
+          }
+      }
+  }
+
+  .heading-icon{
+    width: 20px;
+    height: 20px;
+      svg{
+        path{
+          fill: $grey-medium;
+        }
+        width: inherit;
+        height: inherit;
+      }
+  }
+  .folder-name{
+    position: relative;
+    margin-left: 8px;
+    bottom: 3px;
+    transform: translate(0px, 5px);
+    input, input::-webkit-input-placeholder{
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: 400;
+      color: $grey-dark;
+      font-family: "OpenSans-Regular";
+    }
+  }
+  .content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    svg{
+      path{
+        fill: $grey-medium;
+      }
+    }
+  }
+  .document-popup{
+    position: absolute;
+    background: #FFFFFF;
+    display: flex;
+    width: 128px;
+    height: 124px;
+    align-items: center;
+    align-content: center;
+    z-index: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    right: 35px;
+      border: 1px solid $grey-lightest;
+      box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+      border-radius: 4px;
+      top: 30px;
+    svg{
+        path{
+          fill: $grey-medium;
+        }
+    }
+    .row1{
+        width: 126px;
+        height: 28px;
+        display: flex;
+        align-content: stretch;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: baseline;
+        margin: 6px 0px 4px 0px;
+    }
+    .lable1{
+        margin-left: 6px;
+    }
+    .menu-popup-icons{
+      margin-left: 12px;
+    }
+    :hover{
+        background-color: $grey-lightest;
+    }
+
+}
+.up-icon{
+  transform: translate(4px, 0px) rotate(180deg);
+}
+
+  .radio-privacy{
+    display: contents;
+    
+  }
+  .lock-privacy-icon{
+    position: relative;
+    left: 102px;
+    top: -24px;
+    path{
+      fill: $grey-medium;
+    }
+  }
+  .unlock-privacy-icon{
+    position: relative;
+    left: 77px;
+    top: -24px;
+    path{
+      fill: $grey-medium;
+    }
+  }
+
+
+.radio-button-privacy {
+  padding: 0px 0px 5px 0px;
+  position: relative;
+  display: inline-grid;
+}
+
+.cancel-button{
+position: relative;
+}
+.delete-button{
+  position: relative;
+  margin-left: 12px;
+}
+.buttons{
+  margin-top: 20px;
+  position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.delete-text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  text-align: center;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.horizontal-divider{
+  height: 1px;
+  width: 100%;
+  background-color: $grey-lightest;
+}
+
+.no-folder-text{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    margin-left: 15px;    
+    justify-content: flex-start;
+    line-height: 20px;
+    align-items: center;
+    position: relative;
+    top: 10px;
+  }
+  .details-modal-popup{
+    // height: 320px;
+    // width: 297px;
+    .modal-dialog {
+      transform: none;
+      position: relative;
+      top: 30%;
+      //left: 10%;
+    }
+    .modal-body{
+      padding: 20px 32px 20px 32px !important;
+   }
+  }
+.delete-modal-popup{
+    .modal-dialog {
+      transform: none;
+      position: relative;
+      top: 30%;
+      //left: 10%;
+    }
+    .modal-content{
+      padding: 40px 32px 40px 32px!important;
+      width: 360px !important;
+      height: 208px !important;
+    }
+    .modal-body{
+      padding: 0px !important;
+      .delete-text-header{
+        margin-bottom: 4px;
+      }
+   }
+  }
+.privacyModal-folder{
+    .modal-dialog {
+    transform: none;
+    position: relative;
+      top: 30%;
+     // left: 10%;
+  }
+  .modal-body{
+    padding: 24px 32px 20px 32px !important;
+    height: 176px !important;
+ }
+ label > input[type="radio"] + * {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    align-items: flex-start;
+    align-content: flex-start;
+ }
+}
+.folder-name-input{
+  margin-left: 6px;
+  input{
+    background:  $grey-lightest;
+    border: 1px solid $grey-light;
+    border-radius: 4px;
+    color: $grey-dark;
+    width: 150%;
+  }
+  input[type="text"]{
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+}

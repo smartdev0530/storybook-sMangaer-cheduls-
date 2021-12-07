@@ -1,0 +1,131 @@
+@import "../../assets/styles/color";
+
+.procedure {
+  .subT1 {
+    margin-bottom: 12px;
+  }
+  .subT2 {
+    border: 1px solid $grey-lighter;
+  }
+  .btn-groupB {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .btnB {
+      margin-right: 8px;
+      margin-bottom: 4px;
+    }
+  }
+}
+.procedure-container {
+  margin-top: 28px;
+}
+
+.treatment-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  margin-left: -32px;
+  margin-right: -32px;
+  background-color: $white-light;
+
+  .treat-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    .row1 {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      .sub {
+        .title {
+          margin-top: 16px;
+          margin-bottom: 8px;
+        }
+        .btn-group {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          .btn-custom {
+            margin-right: 4px;
+            margin-bottom: 4px;
+          }
+        }
+      }
+    }
+    .row2 {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      .sub {
+        .title {
+          margin-top: 16px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .treat-content {
+      display: flex;
+      flex-direction: column;
+      .row1 {
+        width: 100%;
+      }
+      .row2 {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+  
+  .appointment-list {
+    margin-top: 10px;
+    width: 100%;
+    background: $white;
+    height: 258px;
+    overflow-y: scroll;
+  }
+}
+.rooms {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  .room-btn {
+    margin-right: 4px;
+  }
+
+
+}
+.checked {
+  display: flex;
+  flex-direction: row;
+  height: 20px !important;
+}
+.action-btn {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+

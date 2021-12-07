@@ -1,0 +1,13 @@
+@import "../../assets/styles/colors-variables";
+
+.tooltipDiv {
+  background-color: #414141;
+  min-height: 24px;
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-align: center;
+  position: absolute;
+  margin: 10px 0px 0px -20px;
+  z-index: 9;
+}

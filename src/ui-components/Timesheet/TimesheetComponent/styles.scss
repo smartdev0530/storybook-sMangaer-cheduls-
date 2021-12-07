@@ -1,0 +1,210 @@
+@import "../../../assets/styles/colors-variables";
+
+.timesheet-wrapper-div {
+  background-color: $white;
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.timesheet-header-div {
+  width: 100%;
+  background-color: $white;
+  height: 52px;
+  -moz-box-shadow: 0px 0px 4px 0px rgba(188, 188, 188, 0.25);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(188, 188, 188, 0.25);
+  box-shadow: 0px 0px 4px 0px rgba(188, 188, 188, 0.25);
+  border-radius: 4px 4px 0px 0px;
+  align-items: center;
+  margin: 0 !important;
+  padding: 16px 20px;
+}
+.timesheet-body-div {
+  padding: 16px 20px;
+}
+.header-text {
+  display: inline-block;
+}
+
+.margin-right-30 {
+  margin-right: 30px;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.margin-left-negative-25 {
+  margin-left: -25px;
+}
+
+.margin-left-negative-6 {
+  margin-left: -6px;
+}
+
+.margin-left-hours {
+  margin-left: -43px;
+}
+
+.margin-left-status {
+  margin-left: -53.5px;
+}
+
+
+.margin-left-negative-23 {
+  margin-left: -23px;
+}
+.margin-left-negative-25 {
+  margin-left: -25px;
+}
+
+
+.margin-left-negative-8 {
+  margin-left: -8px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.padding-left-80 {
+  padding-left: 80px;
+}
+
+.margin-left-action{
+  margin-left: -50px;
+}
+
+.timesheet-element-wrapper-div {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 1px solid #e8e7e7;
+  background-color: $white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  align-self: center;
+}
+
+.timesheet-element-text {
+  display: inline-block;
+  align-self: center;
+  vertical-align: middle;
+  margin-bottom: 8px;
+}
+.timesheet-element-div{
+  align-self: center;
+  margin-top: 10px !important;
+}
+.Pencil {
+  display: inline-block;
+  margin-left: 8px;
+  height: 12px;
+  width: 12px;
+  opacity: 0;
+}
+
+.hours {
+  height: 12px;
+  margin-top: 0px;
+  display: inline-block;
+  &:hover {
+    .Pencil {
+      opacity: 1;
+      display: inline-block;
+      margin-left: 8px;
+      height: 12px;
+      width: 12px;
+    }
+  }
+}
+
+.status {
+  display: inline-block;
+}
+
+.Alert {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+
+.tooltipDiv {
+  background-color: #e9f1ff;
+  color: $white !important;
+  border-color: #153e90;
+  border-style: solid;
+  border-width: 0.2px;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 4px;
+  text-align: start;
+  margin-left: -10px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  z-index: 9;
+}
+
+.toolTipText {
+  width: 210px;
+  color: #153e90;
+  font-size: 12px;
+  list-style: 16px;
+  text-align: start;
+}
+
+.line {
+  margin-top: 8px;
+}
+
+.line2 {
+  height: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.checkbox {
+  // height: 16px;
+  // width: 16px;
+  padding-bottom: 0px;
+  transform: translate(0px, 4.2px);
+}
+
+.inline {
+  display: inline-block;
+}
+
+.btn-loading-state {
+  display: flex !important;
+  line-height: 16px;
+}
+
+.defaultToolTipPosition {
+  transform: translate(-50px, 10px);
+}
+
+.topToolTipPosition {
+  transform: translate(-50px, -150px);
+}
+
+.timesheet-action-text-div {
+  transform: translate(0px, 10px);
+}
+
+.width-58 {
+  width: 58px;
+}
+.transform-down-9 {
+  transform: translate(0px, 9px);
+}
+.transform-down-5 {
+  transform: translate(0px, 5.4px);
+}
+.transform-down-2 {
+  transform: translate(0px, 2px);
+}
+
+.status-inline-block {
+  display: inline-block;
+}
+.overlay-timesheet {
+  border: 1px solid red;
+}

@@ -1,0 +1,59 @@
+@import "../../assets/styles/colors-variables";
+
+.accordion-wrapper {
+  margin-bottom: 2px;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+.title {
+  width: 260px !important;
+  height: 50px !important;
+  padding: 16px 0px 16px 20px !important;
+  background-color: $white !important;
+  border-radius: 0px 0px 0px 0px !important;
+  color: $grey-dark !important;
+}
+
+.accordion-item {
+  width: 260px !important;
+  border: none !important;
+  border-radius: 0px;
+}
+
+.accordion-child {
+  border-radius: 0px 0px 0px 0px !important;
+  margin-top: 0px;
+  padding: 0px 20px 24px 20px !important;
+}
+
+.listdiv {
+  border-radius: 0px 0px 0px 0px !important;
+  padding-top: 6px !important;
+}
+
+.toggle-icon {
+  margin-top: -20px;
+  margin-left: 204.99px !important;
+  svg{
+    width: inherit;
+    height: inherit;
+  }
+  path{
+    fill: $primary-action;
+  }
+}
+
+.down-icon {
+  margin-left: 204.99px !important;
+  svg{
+    width: 16px !important;
+  height: 16px !important;
+  }
+}
+.up-icon {
+  margin-left: 204.99px !important;
+  svg{
+    width: 16px !important;
+  height: 16px !important;}
+  transform: rotate(180deg);
+}

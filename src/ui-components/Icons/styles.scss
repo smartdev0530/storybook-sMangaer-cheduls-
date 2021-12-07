@@ -1,0 +1,77 @@
+@import "../../assets/styles/base";
+
+.svgImage {
+  cursor: pointer;
+}
+.svgImage.hoverOn {
+  &:hover path {
+    fill: $primary-action;
+  }
+  :active path {
+    fill: $primary-action;
+  }
+}
+.tinySortIcons {
+  svg {
+    height: 13.33px;
+    width: 10.83;
+  }
+}
+.extraSmall {
+  svg {
+    height: 12px;
+    width: 12px;
+  }
+}
+.small {
+  svg {
+    height: 14px;
+    width: 14px;
+  }
+}
+.medium {
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+.mediumLarge {
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+  display: flex;
+}
+.large {
+  svg {
+    height: 24px;
+    width: 24px;
+  }
+}
+.extraLarge {
+  svg {
+    height: 36px;
+    width: 36px;
+  }
+}
+.fullSize {
+  svg {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+// onboarding page
+
+.cameraImageIcon {
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+.profileOnboarding {
+  svg {
+    height: 110px;
+    width: 110px;
+  }
+}

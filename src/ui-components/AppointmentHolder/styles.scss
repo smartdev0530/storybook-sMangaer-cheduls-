@@ -1,0 +1,39 @@
+@import "../../assets/styles/colors-variables";
+.holderCard{
+        width: 135px;
+        height: 48px;
+        border-radius: 4px;
+        background:$white;
+        position: relative;
+        display: flex;
+}
+.container2{
+        width: 135px;
+        height: 48px;
+    .time2{
+        position: absolute;
+        color: $grey-dark;
+        left: 12px;
+        bottom: 6px;
+    } 
+    .names{
+        position: absolute;
+        height: 16px;
+        width: 100px;
+        left: 12px;
+        bottom: 26px;
+        overflow: hidden;
+        text-overflow: clip;
+        color: $grey-dark;
+    }
+    .cross1{
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 117px;
+        svg{
+            width: inherit;
+            height: inherit;
+        }
+    }
+}

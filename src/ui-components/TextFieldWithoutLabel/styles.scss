@@ -1,0 +1,18 @@
+@import "../../assets/styles/colors-variables";
+
+.inputFieldEmployee {
+  background-color: $grey-lightest;
+  border: 0px solid;
+  padding: 2px 4px;
+  &.smallText {
+    width: 100%;
+    height: 20px;
+  }
+  &.mediumText {
+    width: 100%;
+    height: 20px;
+  }
+  &:focus {
+    outline: 0px solid;
+  }
+}

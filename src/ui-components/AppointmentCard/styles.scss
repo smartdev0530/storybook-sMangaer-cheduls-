@@ -1,0 +1,134 @@
+@import "../../assets/styles/colors-variables";
+
+.card2 {
+            width:212px;
+            border-radius: 4px;
+            background:$blue-light;
+            position: relative;
+            display: flex;
+    &:hover{  
+            background: $white-light;
+            border-radius: 4px;
+    }
+}
+.container1 {
+            border-radius: 4px;
+        &:active{
+            border: 2px solid $primary-action;
+            border-radius: 6px;
+        }
+        svg{
+            width: inherit;
+            height: inherit;
+        }
+    .patientName {
+            position: absolute;
+            height: 16px;
+            left: 14px;
+            top: 6px;
+            width: 90px;
+            overflow: hidden;
+            text-overflow: clip; 
+            &.moreThanSixty{
+                width: 160px;
+            }
+          }
+    .procedure{
+            position: absolute;
+            height: 16px;
+            width: 85px;
+            top: 24px;
+            color: $secondary-color;
+            overflow: hidden;
+            text-overflow: clip; 
+            &.completed{
+                color:$grey-medium;
+            }
+            &.moreThanSixty{
+                width: 180px;
+            }
+        }
+    .thirty{
+            top:2px;
+        &.left{ 
+            left: 102px; 
+            } 
+        }
+    .sixty{
+            top:6px; 
+        &.left{ 
+            left:102px;
+            } 
+        }
+    .moreThanSixty{
+            left: 14px; 
+        }
+    .doctor{
+            position: absolute;       
+            height: 14px;
+            left: 14px;
+            bottom: 6px;
+            color: $grey-medium;
+        }
+    .time{
+            position: absolute;
+            height: 14px;
+            left: 173px;
+            bottom: 6px;
+            color: $grey-medium; 
+        }
+    .menu{
+            position: absolute;
+            height: 16px;
+            width: 16px;
+            left: 95px;
+            top: 4px;
+            display: inline;
+            path{
+                fill: $grey-light;
+            }
+        }
+    .vertical-line{
+            position: absolute;
+            font-size: 12px;
+            left: 96px;
+        }
+    .arrow-left{
+            position: static;
+            width: 14px;
+            height: 14px;
+            left: 0px;
+            top: 0px;
+            border-top-left-radius: 4px;
+            border-bottom: solid 7px transparent;
+            border-right: solid 7px transparent;   
+        }
+    &.completed{
+            background: $white-light;
+            color:$grey-medium;
+    }
+}
+.arrivedColor{
+            border-left:solid 7px $yellow;
+            border-top:solid 7px $yellow; 
+}
+.ongoingColor{
+            border-left:solid 7px $orange;
+            border-top:solid 7px $orange;  
+}
+.completeColor{
+            border-left:solid 7px $grey-lighter;
+            border-top:solid 7px $grey-lighter; 
+}
+.unconfirmedColor{
+            border-left:solid 7px $red; 
+            border-top:solid 7px $red; 
+}
+.confirmedColor{
+            border-left:solid 7px $green; 
+            border-top:solid 7px $green;
+}
+.reminderColor{
+            border-left:solid 7px $blue; 
+            border-top:solid 7px $blue; 
+}

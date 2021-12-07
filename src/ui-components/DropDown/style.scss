@@ -1,0 +1,108 @@
+@import "../../assets/styles/colors-variables";
+
+.custom-dropdown-container {
+  width: 230px;
+  position: relative;
+  .selected-list {
+    background-color: $white;
+    height: 36px;
+    opacity: 1;
+    border-radius: 2px;
+    border: 0.5px solid $grey-lighter;
+    border-radius: 4px;
+    color: $grey-dark;
+    position: relative;
+    cursor: pointer;
+    white-space: normal;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    // @include media_query(M) {
+    //   width: 170px;
+    // }
+    .dropDown-down-icon {
+      background-image: url("../../assets/icons/noneIcon/dropDownIconBlue.svg");
+      width: 14.01px;
+      height: 7.51px;
+      margin-right: 13px;
+    }
+    .dropDown-disable-icon {
+      background-image: url("../../assets/icons/noneIcon/dropDownIcon.svg");
+      width: 14.01px;
+      height: 7.51px;
+      margin-right: 13px;
+    }
+    .dropDown-up-icon {
+      background-image: url("../../assets/icons/noneIcon/dropDownIconBlue.svg");
+      width: 14.01px;
+      height: 7.51px;
+      margin-right: 13px;
+      transform: rotate(180deg);
+    }
+    .alert_icon {
+      background-image: url("../../assets/icons/noneIcon/alert_icon.svg");
+      width: 13.33px;
+      height: 13.33px;
+      margin-left: 5px;
+    }
+    &.sub_drop_down {
+      border: none;
+      border-radius: 0;
+      .custom_multiline_checkbox {
+        &::after {
+          left: 2px;
+          top: 7px;
+          width: 3px;
+          height: 7px;
+        }
+      }
+      &.active {
+        background-color: $white-light;
+        border: none;
+        .down-icon {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    &.active {
+      border: 0.5px solid $primary-action;
+    }
+    &.disable {
+      color: $grey-light;
+    }
+    &.disable {
+      color: #BCBCBC;
+      font-weight: 400;
+    }
+  }
+  
+  .list-items {
+    box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+    position: absolute;
+    border-radius: 4px;
+    top: 36px;
+    width: 100%;
+    background-color: $white;
+    z-index: 9996;
+    left: 0;
+    border: 1px solid $grey-lighter;
+    border-top: none;
+    ul {
+      padding: 0;
+      margin: 0;
+      max-height: 100px;
+      overflow-x: auto;
+    }
+    .list {
+      height: 36px;
+      padding: 4px 10px 4px 15px;
+      display: flex;
+      align-items: center;
+      color: $grey-dark;
+      position: relative;
+      font-size: 12px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+}

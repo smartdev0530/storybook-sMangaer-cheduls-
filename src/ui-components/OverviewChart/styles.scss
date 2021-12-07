@@ -1,0 +1,70 @@
+@import "../../assets/styles/colors-variables";
+
+.chart-panel {
+    width: 100%;
+    height: 54px;
+    background-color: rgba(246, 246, 246, 0.5);
+    padding: 8px 20px;
+    display: flex;
+}
+
+.chart-panel-left {
+    margin-top: -24px;
+}
+.chart-panel-right {
+    margin-left: auto;
+    margin-top: -20px;
+}
+
+.vertical-time-divider {
+    width: 30px;
+    height: 0px;
+    background-color: $grey-light;
+    border: 1px solid $grey-light;
+    transform: translate(0px, 8px) rotate(90deg);
+    margin: 10px -4px;
+}
+
+.legend-color1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $secondary-color;
+}
+.legend-color2 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: $magenta;
+}
+
+.element-text {
+  display: inline-block;
+  align-self: center;
+}
+
+.tooltip-div {
+    background-color: $grey-dark;
+    border-radius: 4px;
+    padding: 2px 8px 2px 8px;
+    transform: translate(50px, 25px);
+}
+
+.tooltip-arrow {
+    background-color: $grey-dark;
+    height: 8px;
+    width: 8px;
+    transform: translate(48px, 38px) rotate(-45deg) ;
+}
+
+.legend-text-span {
+    transform: translate(0px, -8.5px);
+}
+
+.chart-hours-text-span {
+    margin-top: -20px;
+}
+
+.bar-wrapper{
+    padding: 24px 20px;
+}

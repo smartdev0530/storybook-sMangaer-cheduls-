@@ -1,0 +1,38 @@
+@import "../../assets/styles/base";
+
+.panelTitle {
+  font-size: $description-text;
+  font-weight: 600;
+  line-height: 16px;
+}
+.panelWrapper {
+  background: $white;
+  border: 1px solid $grey-lightest;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+  border-radius: 4px;
+  height: 100%;
+  overflow: scroll;
+}
+
+.panelHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: $white;
+  box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+  border-radius: 4px 4px 0px 0px;
+}
+
+.panelContent {
+  padding: 16px 20px;
+}
+
+.panelSpinnerStyling {
+  display: flex;
+  margin: 0px auto;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,74 @@
+@import "../../assets/styles/colors-variables";
+
+
+
+.custom-dialog2 {opacity: 0.3;}
+.modal {
+  box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+  border-radius: 4px;
+
+  // here
+  -webkit-animation-name: modal-animation;
+  -webkit-animation-duration: 0.5s;
+  animation-name: modal-animation;
+  animation-duration: 0.5s;
+  position: relative;
+
+}
+.closeIcon {
+  position: absolute;
+  right: 32px;
+  top: 24px;
+  height: 20px;
+  width: 20px;
+}
+
+.addEmployee-btn {
+  transform: translate(-320.5px, 0px);
+}
+
+.modal-header {
+  padding: 24px 32px !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  box-shadow: 2px 2px 4px #bcbcbc40;
+  border-radius: 4px 4px 0px 0px !important;
+}
+
+.modal-body {
+  padding: 24px 32px !important;  
+}
+
+.modal-footer {
+  display: block !important;
+  padding: 16px 32px !important;  
+  text-align: center !important;
+}
+.modal-footer > * {
+  margin: 0 !important;
+}
+.modal-dialog {
+  margin: 1.5rem auto !important;
+  width: auto !important;
+}
+
+@-webkit-keyframes modal-animation {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes modal-animation {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}

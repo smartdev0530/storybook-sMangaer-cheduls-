@@ -1,0 +1,92 @@
+/*==========  Desktop First Method  ==========*/
+
+// Declaring Media Queries...
+
+@mixin media_query($point) {
+  @if $point == XXL {
+    @media only screen and (min-width: 1920px) {
+      @content;
+      /* Anything you write inside the curly braces of the @include will be generated in place of the @content directive in our mixin. */
+    }
+  }
+  /* Large Devices, Wide Screens (Large Display */
+  @else if $point == LD {
+    @media only screen and (min-width: 1440px) {
+      @content;
+    }
+  }
+
+  /* Large Devices, Wide Screens */
+  @else if $point == XL {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+  /* Large Devices, Wide Screens */
+  @else if $point == XDL {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+  /* Medium Devices, Desktops */
+  @else if $point == L {
+    @media only screen and (max-width: 992px) {
+      @content;
+    }
+  }
+  /* Medium Devices, Desktops */
+  @else if $point == LL {
+    @media only screen and (max-width: 992px) {
+      @content;
+    }
+  }
+// Added only for infocus tab to center image
+    @else if $point == XLL {
+      @media only screen and (min-width: 992px) {
+        @content;
+      }
+    }
+
+  /* Small Devices, Tablets */
+  @else if $point == MM {
+    @media only screen and (max-width: 850px) {
+      @content;
+    }
+  }
+  @else if $point == M {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @else if $point == ML {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  }
+
+  /* Small Devices */
+  @else if $point == S {
+    @media only screen and (max-width: 575px) {
+      @content;
+    }
+  }
+
+  /* Extra Small Devices, Phones */
+  @else if $point == XS {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
+  @else if $point == XXSS {
+    @media only screen and (max-width: 380px) {
+      @content;
+    }
+  }
+  /* Custom, iPhone Retina */
+  @else if $point == XXS {
+    @media only screen and (max-width: 320px) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import "../../assets/styles/colors-variables";
+
+.toggle {
+  display: flex;
+  justify-content: center;  
+}
+.btnSelected {
+  background-color: $blue-light;
+  color: $primary-action;
+  border: 0.5px solid $primary-action;
+  
+}
+.noActive {
+  background-color: $white;
+  color:$grey-light;
+  border: 0.5px solid $grey-light;
+}
+
+.btnUnselected {
+  background-color: $white;
+  color: $primary-action;
+  border: 0.5px solid $grey-light;
+}
+
+.rtSmall {
+  padding: 4px 11px 6px 11px;
+  height: 24px;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+.rtLarge {
+  padding: 8px 12px 8px 12px !important;
+  height: 36px;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+.rectSmall {
+  padding: 8px 0;
+  height: 32px;
+  width: 46px;
+  border-radius: 4px;
+}
+
+.rectNormal {
+  padding: 8px 0;
+  height: 32px;
+  width: 83px;
+  border-radius: 4px;
+}
+
+.rectLarge {
+  padding: 16px 0;
+  height: 48px;
+  width: 83px;
+  border-radius: 4px;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid $grey-light;
+  background-color:$white;
+  color: $grey-light;
+}
+
+.toggle-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+}

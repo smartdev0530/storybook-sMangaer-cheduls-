@@ -1,0 +1,52 @@
+@import "../../assets/styles/colors-variables";
+.marginT {
+  height: 20px;
+  width: 20px;
+  //margin-top: 6pt;
+  svg {
+    width: inherit;
+    height: inherit;
+  }
+  path {
+    fill: $primary-action;
+  }
+}
+
+.defaultColor {
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  path {
+    fill: $grey-light;
+  }
+}
+
+.selectedColor {
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  path {
+    fill: $primary-action !important;
+  }
+}
+
+.disableCheckbox {
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  path {
+    fill: $grey-lighter;
+  }
+}
+.custom-checkbox {
+  display: block;
+  margin: 0 5px 0 0;
+}
+
+.smallCheckBox {
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,93 @@
+@import "../../assets/styles/colors-variables";
+
+.appointment-detail {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 258px;
+  border-radius: 4px;
+
+  background-color: $white;
+  color: black;
+  border: none;
+  color: $secondary-color;
+  &.active {
+    background-color: $blue-light;
+  }
+}
+.content-drop-down {
+  position: relative;
+  display: flex;
+  width: 282px;
+  border-radius: 4px;
+  flex-direction: column;
+  // justify-content: space-between;
+  background-color: $white;
+  // align-items: center;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 16px;
+    height: 36px;
+    border-radius: 4px;
+    border: 0.5px solid $grey-lighter;
+    &.opened {
+      border: 0.5px solid $primary-action;
+    }
+    .header-down-icon {
+      background-image: url("../../assets/icons/noneIcon/dropDownIconBlue.svg");
+      width: 14.01px;
+      height: 7.51px;
+    }
+    .header-up-icon {
+      background-image: url("../../assets/icons/noneIcon/dropDownIconBlue.svg");
+      width: 14.01px;
+      height: 7.51px;
+      transform: rotate(180deg);
+    }
+  }
+  .header-label {
+    display: flex;
+    align-items: center;
+    &>div {
+      width: max-content;
+    }
+    .icon{
+      margin: 5px;
+      &.verify-icon {
+        path {
+          fill: $green;
+        }
+      }
+    }    
+  }
+}
+.appointment-detail-wrapper {
+  display: flex;
+  max-height: 430px;
+  // height: 230px;
+  overflow:  visible;
+  // overflow-y: auto;
+  flex-direction: column;
+  padding: 12px 12px 0 12px;  
+  background-color: $white;
+  border: 0.5px solid $grey-lighter;
+  .appointment-detail-item {
+    // margin-bottom: 12px;
+    position: relative;
+  }
+  .appoint-detail-item-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 12px;
+  }
+  .divider {
+    width: 100%;
+  }
+  .subject-item {
+    margin-right: 8px;
+    margin-top: 8px;
+  }
+}

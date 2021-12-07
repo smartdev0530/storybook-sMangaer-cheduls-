@@ -1,0 +1,27 @@
+@import "../../assets/styles/colors-variables";
+
+.comment {
+  background-color: $white;
+  color: $grey-dark;
+  border: 0.5px solid $grey-lighter;
+  border-radius: 4px;
+}
+
+.commentSmall {
+  padding: 8px 12px 8px 12px;
+  height: 24px;
+  width: fit-content;
+}
+
+.commentLarge {
+  padding: 8px 12px 8px 12px;
+  height: 24px;
+  width: fit-content;
+}
+
+::placeholder { 
+  font-size: 12px !important;
+}
+textarea::placeholder {
+  color: $grey-light;  
+}

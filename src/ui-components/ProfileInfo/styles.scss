@@ -1,0 +1,79 @@
+@import "../../assets/styles/colors-variables";
+
+.profile-card-lg {
+  height: 40px;
+  width: fit-content;
+  position: relative;
+  background-color: $white;
+}
+
+.profile-card-sm {
+  height: 32px;
+  width: fit-content;
+  position: relative;
+  background-color: $white;
+}
+.profile-card-xl {
+  height: 40px;
+  width: fit-content;
+  position: relative;
+  background-color: $white;
+}
+
+.profile-pic-lg {
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+.profile-pic-sm {
+  height: 32px;
+  width: 32px;
+  float: left;
+}
+.profile-pic-xl {
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+.info-div-lg {
+  width: fit-content;
+  height: 37px;
+  margin-left: 52px !important;
+  position: relative;
+  vertical-align: middle;
+  margin-top: 1px;
+  margin-bottom: auto;
+  background-color: $white;
+}
+
+.info-div-sm {
+  width: fit-content;
+  height: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 44px !important;
+  position: relative;
+  vertical-align: middle;
+  margin-top: 1px;
+  margin-bottom: auto;
+  background-color: $white;
+}
+.info-div-xl {
+  width: fit-content;
+  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 44px !important;
+  position: relative;
+  vertical-align: middle;
+  margin-top: 1px;
+  margin-bottom: auto;
+  background-color: $white;
+}
+
+.email-div {
+  margin-top: 1px;
+  height: 16px;
+  color: $grey-medium;
+}

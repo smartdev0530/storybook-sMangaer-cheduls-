@@ -1,0 +1,105 @@
+@import "../../assets/styles/colors-variables";
+
+* {
+  box-sizing: border-box;
+}
+
+.field {
+  width: 100%;
+  height: 46px;
+  border-radius: 4px;
+  position: relative;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
+}
+
+.field.enable {
+  background-color: $white;
+}
+
+.field.enable input {
+  border: 0.5px solid $grey-lighter;
+  padding: 24px 16px 6px 15px;
+}
+
+.field.enable input + label {
+  top: 4px;
+  left: 16px;
+  opacity: 1;
+  font-size: 10px;
+  color: $grey-dark;
+}
+
+.field.active input {
+  border: 0.5px solid $secondary-color;
+  padding: 24px 16px 6px 15px;
+}
+
+.field.error input {
+  border: 0.5px solid $red;
+  padding: 24px 16px 6px 15px;
+}
+
+.field.locked {
+  pointer-events: none;
+}
+
+.field input {
+  width: 100%;
+  height: 46px;
+  position: relative;
+  padding: 0px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: $white;
+  color: $grey-dark;
+  outline: none;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+  -webkit-appearance: none;
+}
+
+.field input + label {
+  position: absolute;
+  left: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  color: $white;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.1s all ease-in-out;
+}
+
+.errorSpan {
+  color: $red;
+  font-size: 10px;
+}
+
+// placeholder color
+
+// .field input::placeholder {
+//   color: #0080ff !important;
+//   // color: #444 !important;
+// }
+
+// .field input::-webkit-input-placeholder {
+//   color: #0080ff !important;
+// }
+
+.field input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: $grey-light !important;
+  opacity: 1;
+}
+.field input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: $grey-light !important;
+  opacity: 1;
+}
+.field input::placeholder {
+  /* modern browser */
+  color: $grey-light !important;
+  opacity: 1;
+}

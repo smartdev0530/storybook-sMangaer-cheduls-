@@ -1,0 +1,46 @@
+@import "../../assets/styles/colors-variables";
+
+.overview-card {
+  height: 62px;
+  width: fit-content;
+  background-color: $white;
+  align-items: center;
+  display: flex;
+}
+
+.overview-icon {
+  float: left;
+  display: flex;
+  svg{
+    width: 32px;
+    height: 32px;
+  }
+  mask{
+    fill: $secondary-color;
+  }
+  path{
+    fill: $secondary-color;
+  }
+}
+
+.overview-info {
+  float: right;
+  margin-left: 20px;
+  background-color: $white;
+}
+
+.overview-text {
+  margin-top: 2px;
+}
+
+.green-text-class {
+  color: $green;
+}
+
+.red-text-class {
+  color: $red;
+}
+
+.orange-text-class {
+  color: $orange;
+}

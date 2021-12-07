@@ -1,0 +1,131 @@
+@import "../../assets/styles/colors-variables";
+
+.upload-zone-sm {
+    height: 160px;
+    // width: 746px;
+    width: inherit;
+    max-width: 504px;
+    border: 1px dashed $grey-light;
+    border-radius: 4px;
+    background-color: $white;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.upload-zone-lg {
+    height: 160px;
+    width: inherit;
+    max-width: 504px;
+    border: 1px dashed $grey-light;
+    border-radius: 4px;
+    background-color: $white;
+}
+
+.upload-icon-sm {
+    height: 24px;
+    width: 24px;
+    transform: translate(240px, 55px);
+    // display: block;
+    // margin-right: auto;
+    // margin-left: auto;
+    
+}
+.upload-icon-lg {
+    height: 24px;
+    width: 24px;
+    transform: translate(0px, 45px);
+}
+
+.upload-icon-div {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.upload-text-div-sm {
+    transform: translate(0px, 57px);
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+.upload-text-div-lg {
+    transform: translate(0px, 45px);
+    text-align: center;
+}
+
+.drag-drop-text-sm {
+    display: inline-block;
+    color: $grey-light;
+}
+.drag-drop-text-lg {
+    margin-top: 11px !important;
+    color: $grey-light;
+}
+
+.browse-files-text-sm {
+    display: inline-block;
+    margin-left: 4px;
+    color: $primary-action;
+}
+.browse-files-text-lg {
+    margin-top: 4px !important;
+}
+
+.wrapper-uploaded-list-sm {
+    margin-top: 20px;
+}
+.wrapper-uploaded-list-lg {
+    margin-top: 16px;
+}
+
+.uploaded-file-div-sm {
+    width: 457px;
+    padding: 4px;
+    margin-bottom: 4px;
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+.uploaded-file-div-lg {
+    width: 457px;
+    padding: 4px;
+    margin-bottom: 4px;
+}
+
+.uploaded-file-div-sm:hover {
+    background-color: $grey-lighter;
+}
+.uploaded-file-div-lg:hover {
+    background-color: $grey-lighter;
+}
+
+
+
+
+// unchanged.
+.file-name-text {
+    color: $grey-dark;
+    display: inline-block;
+    transform: translateX(0px);
+}
+
+.right-file-div {
+    color: #414141;
+    display: flex;
+   // transform: translateX(0px);
+    // :hover {
+    //     background-color: $grey-lighter;
+    // }
+}
+
+.file-size-text {
+    color: $grey-dark;
+    display: inline-block;
+}
+
+.delete-uploaded-file-icon {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-left: 16px;
+}

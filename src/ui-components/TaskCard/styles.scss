@@ -1,0 +1,131 @@
+@import "../../assets/styles/colors-variables";
+.taskCard{
+        width: 204px;
+        height: 82px;
+        border-radius: 4px;
+        background:$white;
+        position: relative;
+        display: flex;
+    &:hover{  
+        background: $white-light;
+        border-radius: 4px;
+    }
+}
+.container1{
+        width: 204px;
+        height: 82px;
+    &:active{
+        border: 2px solid $primary-action;
+        border-radius: 6px;
+    }
+    .menu1{
+        position: absolute;
+        svg{
+            width: inherit;
+            height: inherit;
+        }
+        left: 184px;
+        top: 6px;
+        display: inline;
+        path{
+            fill: $grey-light;
+        }
+     }
+    .arrow-left{
+        position: static;
+        width: 14px;
+        height: 14px;
+        left: 0px;
+        top: 0px;
+        border-top-left-radius: 4px;
+        border-bottom: solid 7px transparent;
+        border-right: solid 7px transparent;   
+    .frontOffice{
+        border-left:solid 7px $yellow;
+        border-top:solid 7px $yellow; 
+    }}
+    .time1{
+        position: absolute;
+        background-color: $grey-lightest;
+        color: $grey-medium;
+        font-size: 10px;
+        line-height: 14px;
+        width: 56px;
+        height: 20px;
+        left: 12px;
+        top: 56px;
+        border-radius: 4px;
+        display: inline;
+    } 
+    .clock{
+        position: absolute;
+        top: 3px;
+        left:4px;
+        svg{
+            width: inherit;
+            height: inherit;
+        }
+        path{
+            fill: $grey-medium;
+        }
+        }
+    .date{
+        position: absolute;
+        left:22px;
+    }
+    .profile-pic{
+        position: absolute;
+        padding-right: 2px;
+        top: 52px;
+        left: 128px;
+        display: inline;
+    }
+    .task{
+        position: absolute;
+        height: 40px;
+        width: 180px;  
+        overflow: hidden;
+        text-overflow: clip;
+        left: 12px;
+        top: 8px;
+        color: $grey-dark;
+    }
+    .tickmark{
+        position: absolute;
+        top: 56px;
+        svg{
+            width: inherit;
+            height: inherit;
+        }
+        left: 156px;
+        display: inline;
+        path{
+            fill: $green;
+        }
+    }
+    .cross{
+        position: absolute;
+        top: 56px;
+        svg{
+            width: inherit;
+            height: inherit;
+        }
+        left: 182px;
+        display: inline;
+        path{
+            fill: $primary-action;
+        }
+    }
+}
+.frontOffice{
+        border-left:solid 7px $orange;
+        border-top:solid 7px $orange; 
+}
+.private{
+        border-left:solid 7px $green;
+        border-top:solid 7px $green; 
+}
+.shared{
+        border-left:solid 7px $yellow;
+        border-top:solid 7px $yellow; 
+}

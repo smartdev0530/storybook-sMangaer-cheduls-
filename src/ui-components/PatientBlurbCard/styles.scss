@@ -1,0 +1,202 @@
+@import "../../assets/styles/colors-variables";
+
+.patient-blurb-card{
+    svg{
+        width: inherit;
+        height: inherit;
+    }
+    path{
+        fill: $white;
+    }
+        position: absolute;
+        width: 322px;
+        height: 116px;
+        background: linear-gradient(90deg, $primary-action 0%, $secondary-color 79.17%);
+        box-shadow: 0px 4px 4px rgba(188, 188, 188, 0.25);
+        border-radius: 4px;
+        color: $white;
+    .profilePic{
+        position: absolute;
+        height: 116px;
+    }
+    .name{
+        position: absolute;
+        top:14px;
+        width: 108px;
+        height: 20px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        display: flex;
+    }
+    .gender{
+        position: absolute;
+        top:14px;
+        display: flex;
+    }
+    .age{
+        position: absolute;
+        top:14px;   
+        display: flex;
+    }
+    .call{
+        position: absolute;
+        top: 46px;
+        display: flex;
+    }
+    .number{
+        position: absolute; 
+        top:46px;
+        display: flex;
+    }
+    .folder{
+        display: flex;
+        position: absolute;
+        top:46px;
+    }
+    .amount{
+        position: absolute;
+        top:46px;
+        display: flex;
+    }
+    .mail{
+        position: absolute;
+        top:74px;
+    }
+    .message{
+        position: absolute;
+        top:74px;
+    }
+    .appointmentButton{
+        position: absolute;
+        top:74px;
+        width: 118px;
+        font-size: 12px;
+        height: 28px;
+        text-align: center;
+        background-color: $primary-action;
+        color: $white;
+        border: none;
+        border-radius: 4px;
+        padding: 6px 8px 6px 8px;
+    .semibold12{
+        width:102px;
+    }}
+    .horizontal1{
+        position: absolute;
+        top: 12px;
+    }
+    .horizontal2{
+        position: absolute;
+        top: 12px;
+    }
+    .horizontal3{
+        position: absolute;
+        top: 44px;
+    }
+}
+.largeCard{
+    .profilePic{
+            width: 92px;
+        }
+        .row1{
+            display: flex;
+            .name{
+                left:108px;
+            }
+            .gender{
+                left:240px;       
+            }
+            .age{
+                left:271px;
+            }
+            .horizontal1 {
+                left: 216px;
+            }
+            .horizontal2 {
+                left: 249px;
+            }
+        }
+        .row2{
+            .call{
+                left:108px;
+            }
+            .number{
+                left:128px;
+            }
+            .folder{
+                left:240px;
+            }
+            .amount{
+                left:260px;
+            }
+            .horizontal3{
+                left: 216px;
+            }
+        }
+        .row3{
+            .mail{ 
+                left:110px;
+            }
+            .message{
+                left:150px;
+            }
+            .appointmentButton{
+                left:188px;
+            }
+    }   
+}
+.smallCard{
+    width: 302px;
+    svg{
+        width: inherit;
+        height: inherit;
+    }
+    .profilePic{
+        width: 92px;
+    }
+    .row1{
+        .name{
+            left:100px;
+        }
+        .gender{
+            left:232px;       
+        }
+        .age{
+            left:263px;
+        }
+        .horizontal1 {
+            left: 210px;
+        }
+        .horizontal2 {
+            left: 241px;
+        }
+    }
+    .row2{
+        .call{
+            left:100px;
+        }
+        .number{
+            left:120px;
+        }
+        .folder{
+            left:232px;
+        }
+        .amount{
+            left:252px;
+        }
+        .horizontal3{
+            left: 210px;
+        }
+    }
+    .row3{
+        .mail{ 
+            left:102px;
+        }
+        .message{
+            left:138px;
+        }
+        .appointmentButton{
+            left:172px;
+        }
+    }
+}

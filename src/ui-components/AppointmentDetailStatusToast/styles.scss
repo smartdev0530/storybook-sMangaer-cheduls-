@@ -1,0 +1,27 @@
+@import "../../assets/styles/colors-variables";
+
+.detail-status {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 258px;
+  border-radius: 4px;
+
+  background-color: $white;
+  color: black;
+  border: none;
+  color: $secondary-color;
+  &.active {
+    background-color: $blue-light;
+  }
+  .icon {
+    margin: 8px
+  }
+}
+
+.status-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 8px;
+}

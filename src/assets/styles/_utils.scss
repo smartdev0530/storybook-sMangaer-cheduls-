@@ -1,0 +1,47 @@
+@import './colors-variables';
+
+.float-right{
+    float: right;
+}
+.float-left{
+    float: left;
+}
+.width100{
+    width: 100% !important;
+}
+.whiteBackgroundBorder{
+    background-color: white !important;
+    border-color: white !important;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.displayFlex{
+    display: flex;
+}
+.alignItemCenter{
+    align-items: center;
+}
+.redText{
+    color: $red !important;
+}
+.greenText{
+    color: $green !important;
+}
+.orangeText{
+    color: $orange !important;
+}
+
+.maxHeight100vh{
+    max-height: 100vh;
+}
+
+.componentShadow{
+    border: 1px solid $grey-lightest;
+    box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+    border-radius: 4px;
+}
+
+.floatRight{
+    float: right;
+}

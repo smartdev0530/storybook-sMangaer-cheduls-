@@ -1,0 +1,116 @@
+@import "../../assets/styles/colors-variables";
+
+.title-div {
+  width: 324px;
+  height: 40px;
+  padding: 12px 0px 12px 12px;
+  background-color: $secondary-color;
+  border-radius: 4px 4px 0px 0px;
+  color: $white;
+}
+
+.title-div-close {
+  width: 324px;
+  height: 40px;
+  padding: 12px 0px 12px 12px;
+  background-color: $secondary-color;
+  border-radius: 4px 4px 4px 4px;
+  color: $white;
+}
+
+.accordion-item-div {
+  background-color: $white;
+  overflow: hidden;
+  width: 324px;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.accordion-child-div {
+  padding: 5px 0px 0px 0px;
+}
+
+.list-class-div {
+  padding: 2px 0px 2px 12px !important;
+}
+
+.toggle-icon-div {
+  margin-top: -40px;
+  margin-left: 260.74px;
+  svg{
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.down-icon-div {
+  height: 12px;
+  width: 12px;
+  margin-right: 13px;
+  path{
+    fill: $white;
+  }
+  svg{
+    width: inherit;
+    height: inherit;
+  }
+}
+.up-icon-div {
+  height: 12px;
+  width: 12px;
+  margin-top: -40px;
+  margin-right: 13px;
+  transform: rotate(180deg);
+  path{
+    fill: $white;
+  }
+  svg{
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.white-cross-icon-div {
+  margin-top: -32px;
+  margin-left: 290px;
+  path{
+    fill: $white;
+  }
+  svg{
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.status-color-div {
+  color: $grey-light;
+  margin-top: -20px;
+  float: right;
+  margin-right: 40px;
+}
+
+.progress-bar-div {
+  margin-top: -11.5px;
+  float: right;
+  margin-right: 40px;
+}
+
+.cancel-div {
+  margin-top: -22px;
+  float: right;
+  margin-right: 13.74px;
+  svg{
+    width: inherit;
+    height: inherit;
+  }
+}
+
+.refresh-div {
+  margin-top: -22px;
+  float: right;
+  margin-right: 13.74px;
+  svg{
+    width: inherit;
+    height: inherit;
+  }
+}

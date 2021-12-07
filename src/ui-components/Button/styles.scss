@@ -1,0 +1,55 @@
+@import "../../assets/styles/colors-variables";
+
+.btnPrimary {
+  background-color: $primary-action;
+  color: $white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btnSecondary {
+  background-color: $white;
+  color: $primary-action;
+  border: 0.5px solid $primary-action;
+  border-radius: 4px;
+}
+
+.btnTertiary {
+  background-color: $white-light;
+  color: $grey-dark;
+  border: none;
+  border-radius: 4px;
+}
+.btnMain {
+  background-color: $white;
+  color: $grey-light;
+  border: 0.5px solid $grey-light;
+  border-radius: 4px;
+}
+
+.btnDisable {
+  background-color: $white-light;
+  color: $grey-light;
+  border: none;
+  border-radius: 4px;
+}
+
+.btnSmall {
+  padding: 0px;
+  height: 32px;
+  width: 48px;
+}
+
+.btnLarge {
+  padding: 0px;
+  height: 32px;
+  width: 88px;
+}
+
+.btnFit {
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 32px;
+  width: fit-content;
+}
+

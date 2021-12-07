@@ -1,0 +1,135 @@
+@import "../../assets/styles/colors-variables";
+
+.dropdown-toggle btn btn-primary{
+    background: #FFFFFF;
+    border: 0.5px solid #52B6C3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: black;
+}
+.paginationWrapper{
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 20px;
+    background: $white;
+    box-shadow: 0px -2px 4px rgba(188, 188, 188, 0.25);
+    border-radius: 0px 0px 4px 4px;
+    align-items: center;
+}
+.sr-only{
+    display: none;
+}
+
+.resultWrapper{
+    display: flex;
+    align-items: center;
+    .title {
+        margin-right: 5px;
+    }
+}
+
+//pagination bar.
+.pagination {
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    outline: none;
+  }
+  
+  .page-item .page-link {
+    position: relative;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 2px;
+    height: 32px;
+    width: 32px;
+    border: 1px solid $primary-action;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    color: $primary-action;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .page-item a.page-link {
+    border: 0.5px solid $grey-lighter;
+    background-color: white;
+    outline: none;
+  }
+  
+  .page-item a.page-link:hover {
+    border: 0.5px solid $primary-action;
+    color: $primary-action;
+    background-color: $white;
+  }
+
+  .page-item.active .page-link {
+    color: $white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border: 0.5px solid $primary-action !important;
+    background: $primary-action !important;
+    outline: none;
+  }
+  
+  .page-item.active .page-link:hover {
+    color: $white;
+    background-color: $primary-action;
+  }
+  
+  .page-item.disabled .page-link {
+    color: $grey-lighter;
+    pointer-events: none;
+    cursor: auto;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .count-list-dropdown{
+    width: inherit ;
+    .new-list{
+      width: 58px !important;
+    :hover{
+      width: inherit;
+      border-radius: 2px;
+      background-color: $grey-lightest;
+    }
+    }
+    .list{
+      width: 56px !important;
+    }
+    .value{
+      left: -12px;
+      position: relative;
+    }
+    .new-dropdown-variable{
+      .dropDown-down-icon{
+        width: 16px !important;
+        height: 16px;
+        margin-right: 4px;
+        margin-top: 12px;
+      }
+      .dropDown-up-icon{
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+        margin-top: 6px;
+      }
+    }
+  }

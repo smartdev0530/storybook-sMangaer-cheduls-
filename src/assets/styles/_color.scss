@@ -1,0 +1,117 @@
+@import '../../assets/styles/colors-variables';
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid $grey-lighter;
+}
+.screen-background{
+    background-color: $screen-background;
+}
+.primary-action{
+    background-color: $primary-action;
+}
+.secondary-color{
+    background-color: $secondary-color;
+}
+.other1{
+    background-color: $other1;
+}
+.other2{
+    background-color: $other2;
+}
+.grey-dark{
+    background-color: $grey-dark;
+}
+.grey-medium{
+    background-color: $grey-medium;
+}
+.grey-light{
+    background-color: $grey-light;
+}
+.grey-lighter{
+    background-color: $grey-lighter;
+}
+.grey-lightest{
+    background-color: $grey-lightest;
+}
+.white{
+    background-color: $white;
+}
+.white-light{
+    background-color: $white-light;
+}
+.red{
+    background-color: $red;
+}
+.green{
+    background-color: $green;
+}
+.blue{
+    background-color: $blue;
+}
+.orange{
+    background-color: $orange;
+}
+.yellow{
+    background-color: $yellow;
+}
+.magenta{
+    background-color: $magenta;
+}
+//font Colors
+.font-screen-background{
+    color: $screen-background;
+}
+.font-primary-action{
+    color: $primary-action;
+}
+.font-secondary-color{
+    color: $secondary-color;
+}
+.font-other1{
+    color: $other1;
+}
+.font-other2{
+    color: $other2;
+}
+.font-grey-dark{
+    color: $grey-dark;
+}
+.font-grey-medium{
+    color: $grey-medium;
+}
+.font-grey-light{
+    color: $grey-light;
+}
+.font-grey-lighter{
+    color: $grey-lighter;
+}
+.font-grey-lightest{
+    color: $grey-lightest;
+}
+.font-white{
+    color: $white;
+}
+.font-white-light{
+    color: $white-light;
+}
+.font-red{
+    color: $red !important;
+}
+.font-green{
+    color: $green;
+}
+.font-blue{
+    color: $blue;
+}
+.font-orange{
+    color: $orange;
+}
+.font-yellow{
+    color: $yellow;
+}
+.font-magenta{
+    color: $magenta;
+}

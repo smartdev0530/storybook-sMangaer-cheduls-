@@ -1,0 +1,32 @@
+@import '../../assets/styles/colors-variables';
+
+.editEnable{
+    path{
+        fill: $primary-action;
+    }
+    svg{
+        width: inherit;
+        height: inherit;
+    }
+}
+.editDisable{
+    path{
+        fill: $grey-light;
+    }
+    svg{
+        width: inherit;
+        height: inherit;
+    }
+}
+.add{
+    svg{
+        width: inherit;
+        height: inherit;
+    }
+}
+.addWhite{
+    svg{
+        width: inherit;
+        height: inherit;
+    }
+}

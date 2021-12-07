@@ -1,0 +1,98 @@
+@import "../../assets/styles/colors-variables";
+
+.table-wrapper {
+  background-color: $white;
+  box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+  border-radius: 4px;
+  margin-top: 10px;
+  position: relative;
+  .table-main-container {
+    margin: 0;
+  }
+  .table-main-header {
+    height: 56px;
+  }
+  .iconMarginLeft {
+    margin-left: 20px;
+  }
+  .table-cell {
+    height: 48px;
+    vertical-align: middle;
+  }
+  .emailStyle {
+    margin-left: 20px;
+    margin-right: 14px;
+    path {
+      fill: $primary-action;
+    }
+  }
+  .messageStyle {
+    path {
+      fill: $primary-action;
+    }
+  }
+  .selectElement {
+    background-color: $red;
+  }
+}
+
+.table-header-text {
+  display: inline-block;
+}
+
+.table-header-sort-icon {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.selected-table-header-text {
+  color: $primary-action;
+}
+
+.emptyData {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  border-top: 0px !important;
+}
+
+//To adjust space between 2 sort icons
+.sortIconMarginAdjust {
+  margin-top: -8px;
+}
+
+.sortDefaultColor {
+  path {
+    fill: $grey-light;
+  }
+}
+
+.sortSelectedColor {
+  path {
+    fill: $grey-dark;
+  }
+}
+
+.selectedColor {
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  path {
+    fill: $primary-action !important;
+  }
+}
+
+.defaultColor {
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  path {
+    fill: $grey-light;
+  }
+}

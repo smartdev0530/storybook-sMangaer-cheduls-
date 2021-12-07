@@ -1,0 +1,74 @@
+@import "../../assets/styles/base";
+label > input[type="radio"] {
+  display: none;
+}
+label > input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #bcbcbc;
+}
+label.disable > input[type="radio"] + *::before {
+  content: "";
+  display: inline-block;
+  vertical-align: bottom;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #e8e7e7;
+}
+label > input[type="radio"]:checked + * {
+  color: #52b6c3;
+}
+label > input[type="radio"]:checked + *::before {
+  background: radial-gradient(#52b6c3 0%, #52b6c3 50%, transparent 60%, transparent);
+  border-color: #52b6c3;
+}
+
+label > input[type="radio"] + * {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.radio-button-label-text-icon {
+  transform: translate(0px, -22px);
+  margin-left: 28px;
+}
+.radio.item {
+  &.inline {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+  }
+  svg {
+    width: inherit;
+    height: inherit;
+  }
+}
+.radio-button-privacy {
+  padding: 0px 0px 5px 0px;
+  position: relative;
+  display: inline-grid;
+}
+.rxs {
+  display: inline;
+}
+
+.radioBtnGrpLabel {
+  margin: 0 16px;
+}
+.radio-heading{
+position: relative;
+}
+.radio-text{
+  position: relative;
+  top: -22px;
+}

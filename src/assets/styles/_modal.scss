@@ -1,0 +1,53 @@
+.modal_body_main_container {
+  padding: 30px !important;
+  .title {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .close_btn_icon {
+    background-image: url(../icons/icon/CancelGreen.svg);
+    height: 15px;
+    width: 15px;
+  }
+  .checkbox_area {
+    display: flex;
+    .createPatientLabel {
+      margin-right: 35px;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .custom_multiline_checkbox {
+      margin-right: 15px;
+      .checkbox__label {
+        word-break: normal;
+      }
+    }
+    .radio_btn_container {
+      margin-right: 15px;
+    }
+  }
+  .insurance_information {
+    margin-bottom: 15px;
+  }
+  .select_option {
+    margin-bottom: 5px;
+  }
+  .select_radio_btn {
+    .radio_btn_container {
+      display: inline-block;
+      margin-right: 15px;
+      font-size: 12px;
+    }
+  }
+  .footer_area {
+    .btn_area {
+      display: flex;
+      justify-content: center;
+    }
+    .btn {
+      width: 100px;
+      height: 36px;
+    }
+  }
+}

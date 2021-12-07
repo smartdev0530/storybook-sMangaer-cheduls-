@@ -1,0 +1,131 @@
+@import "../../assets/styles/colors-variables";
+.modal {
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 2px 2px 4px rgba(188, 188, 188, 0.25);
+  border-radius: 4px;
+
+  -webkit-animation-name: modal-animation;
+  -webkit-animation-duration: 0.5s;
+  animation-name: modal-animation;
+  animation-duration: 0.5s;
+  position: relative;
+}
+
+.modal-header {
+  padding: 24px 32px !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  box-shadow: 2px 2px 4px #bcbcbc40;
+  border-radius: 4px 4px 0px 0px !important;
+}
+
+.modal-body {
+  height: 216px;
+  width: 272px;
+  border-radius: 4px;
+  padding: 14px 16px 20px 16px !important;
+  text-align: center;
+  background-color: $secondary-color;
+  .icon {
+    margin: 0 8px;
+  }
+  .time-set-top {
+    margin-bottom: 17px;
+    path {
+      fill:$white;
+    }
+  }
+  .time-set-close {
+    position: absolute;
+    right: 0;
+    svg {
+      margin: 0 18px;
+      path {
+        fill: $white
+      }
+    }
+  }
+  .time-comment {
+    background-color: $blue;
+    height: 33px;
+    width: 99px;
+    border-radius: 4px;
+    padding: 0px, 4px, 0px, 4px;
+  }
+  .time-set-comment {
+    width: 239px;
+    height: 48px;
+    border-radius: 4px;
+    margin: 16px 0 12px;
+    padding: 8px 12px;
+    outline: none;
+    resize: none;
+
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+  button {
+    &>div {
+      display: inline;
+      font-size: 12px !important;
+    }
+  }
+  .button-group {
+    padding: 31px 0 0 0;
+    button {
+      width: 116px;
+      height: 28px;
+    }
+  }
+  .button-group-comment {
+    button {
+      width: fit-content;
+      min-width: 105px;
+      height: 28px;
+      div {
+        width: max-content;
+      }
+    }
+  }
+  .time-set-wrapper {
+    margin-top: 6px;
+    svg {
+      height: 72px;
+    }
+  }
+}
+
+.modal-dialog {
+  margin: calc(50vh - 140px) auto !important;
+  width: auto !important;
+  height: 216px;
+  width: 272px !important;
+}
+
+@-webkit-keyframes modal-animation {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes modal-animation {
+  from {
+    top: -100px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}

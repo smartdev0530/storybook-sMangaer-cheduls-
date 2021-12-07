@@ -1,0 +1,82 @@
+@import "../../assets/styles/colors-variables";
+
+.basicPill {
+  background-color: white;
+  color: $grey-dark;
+  border: none;
+  height: 24px;
+  width: fit-content;
+  border: 0.5px solid $grey-light;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  margin-right: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.groupPill {
+  background-color: white;
+  color: $grey-dark;
+  border: none;
+  height: 24px;
+  width: fit-content;
+  border: 0.5px solid $grey-light;
+  font-size: 12px;
+  padding: 4px 12px 22px 12px;
+  border-radius: 2px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.timePill {
+  background-color: white;
+  color: $grey-dark;
+  border: none;
+  height: 24px;
+  width: fit-content;
+  border: 0.5px solid $grey-light;
+  font-size: 12px;
+  padding: 4px 12px 22px 12px;
+  border-radius: 2px;
+  text-align: center;
+  display: flex;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.selectesPill {
+  background-color: #f2faff;
+  color: $grey-dark;
+  border: none;
+  height: 24px;
+  width: fit-content;
+  border: 0.5px solid #52b6c3;
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  margin-right: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.disablePill {
+  background-color: $grey-lightest;
+  color: $grey-light;
+  border: none;
+}
+
+.formsPill {
+  background-color: $blue-light;
+  border: 0.5px solid $primary-action;
+}
+
+.crossPill {
+  display: inline;
+  position: relative;
+  svg {
+    width: inherit;
+    height: inherit;
+  }
+}

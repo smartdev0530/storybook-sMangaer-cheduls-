@@ -1,0 +1,22 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: "#BCBCBC";
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: "#BCBCBC";
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: "#BCBCBC";
+}
+.searchField{
+    display: flex;
+}
+.searchIcon{
+    margin-top: 5px;
+    svg{
+        width: inherit;
+        height: inherit;
+    }
+}
